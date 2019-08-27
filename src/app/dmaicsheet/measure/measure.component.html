@@ -1,0 +1,23 @@
+<table>
+  <tr>
+    <mat-label style="font-size:40px; margin-bottom: 200px,padding-right=50px; margin-left: 10%;"><b>MEASURE</b></mat-label>
+  </tr>
+</table>
+<div class="container">
+  <br>
+  <br>
+
+  <div class="input-group">
+
+    <textarea name="current_value" rows="6" cols="21" [(ngModel)] = "dmaic.measure.current" (focusout)="focusOut()"
+      style="font-size:15px;">{{dmaic.measure.current}}</textarea>
+   <!----- <span class="input-group-addon"></span>---> &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <textarea name="target_value"  rows="6" cols="21" (focusout)="focusOut()" [(ngModel)] = "dmaic.measure.target "
+      style="font-size:15px;">{{dmaic.measure.target}}</textarea> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <textarea name="gap" readonly rows="6" cols="21" style="font-size:15px;" >{{ result }}</textarea> &nbsp;
+
+    
+  </div>
+</div>

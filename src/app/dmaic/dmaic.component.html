@@ -1,0 +1,21 @@
+
+  <div class = "container">
+      <button class="btn btn-primary" routerLink="/dmaic/dmaicsheet/new">Create Dmaic</button> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+      <div class = "row">
+        <div class = "col-sm-2" style="background-color: rgb(236, 137, 91)">Email</div> 
+        <div class = "col-sm-2" style="background-color: plum">Define</div> 
+        <div class = "col-sm-2" style="background-color: powderblue">Measure</div>
+        <div class = "col-sm-2" style="background-color: pink">Analyse</div>
+        <div class = "col-sm-2" style="background-color: plum">Implement</div>
+        <div class = "col-sm-2" style="background-color: powderblue">Control</div>&nbsp;
+       
+      </div>
+      <div class="row" *ngFor = "let dmaic of dmaics; let i=index" style="background-color: white">
+        <div class = "col-sm-2">{{dmaic.userId}}</div> 
+        <div class = "col-sm-2" [routerLink]="['dmaicsheet',i]">{{dmaic.define}}</div>
+        <div class = "col-sm-2">{{dmaic.measure.current}}-{{dmaic.measure.target}}</div>
+        <div class = "col-sm-2">{{dmaic.analyse}}</div>
+        <div class = "col-sm-2">{{dmaic.implementation}}</div>
+        <div class = "col-sm-2">{{dmaic.control}}</div>
+      </div>
+    </div>

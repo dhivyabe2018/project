@@ -1,0 +1,10 @@
+{
+    "define": "JAVA",
+    "measure":{
+        "current": "1",
+        "target": "2"
+    },
+    "analyse": "Programming concepts not clear",
+    "implementation": "Doing more practicals",
+    "control":"Refer other tutorials"
+}

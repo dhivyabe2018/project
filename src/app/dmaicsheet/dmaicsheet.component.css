@@ -1,0 +1,29 @@
+.jumbotron {
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 12%;
+    padding-top: 20px;
+    margin-bottom: 90%;
+    
+  }
+  .example-tab-icon {
+    margin-right: 8px;
+  }
+  .example{
+    background-color: pink;
+  }
+  mat-card{
+    padding-left: 70px; 
+    width:700px;
+   }
+   mat-tab{
+     width:200px;
+     height:150px;
+     
+   }
+   mat-tab-group{
+     min-height: 2px;
+   }
+
+
+

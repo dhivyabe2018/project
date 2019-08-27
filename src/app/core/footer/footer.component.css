@@ -1,0 +1,9 @@
+.fa-heart {
+    color: red;
+    }
+    
+    .container-fluid{
+        background-color:peachpuff;
+        height: 10%;
+        flex: center;
+    }

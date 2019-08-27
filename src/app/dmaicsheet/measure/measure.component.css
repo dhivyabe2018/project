@@ -1,0 +1,22 @@
+mat-card{
+    padding-left: 30px; 
+    width:700px;
+   }
+ .float{
+     padding-right: 5px;
+ }
+ 
+ .textarea{
+     padding-left: 5px;
+ }
+ .mat-raised-button {
+   position: top;
+    top:50%;
+    transform: translateY(-90%);
+ }
+ .input-group{
+     margin: auto;
+     margin-bottom: 5%;
+ }
+
+ 

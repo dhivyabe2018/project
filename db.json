@@ -1,0 +1,16 @@
+{
+  "data":[
+    {
+      "define": "JAVA",
+      "measure" : [
+        {
+          "current": "2",
+          "target" : "5"
+        }
+      ],
+      "analyse": "Programming not clear",
+      "implementation": "Doing more practicals",
+      "control": "Refer other tutorials"
+    }
+  ]
+}
